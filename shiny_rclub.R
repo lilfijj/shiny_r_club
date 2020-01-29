@@ -2,7 +2,7 @@
 # an app that plots incidences of baby names for the 2000s
 # interface will include choosing girls name and boys name
 # default colors will be purple and springgreen
-
+# CHANGES MADE 
 # load libraries ----
 if (!require ('ggplot2')) install.packages('ggplot2')
 library(ggplot2) # for general plotting
@@ -14,7 +14,7 @@ if (!require ('shinythemes')) install.packages('shinythemes')
 library(shinythemes) # for some custom looks if you want them https://cran.r-project.org/web/packages/shinythemes/shinythemes.pdf
 
 # Define the user interface ---- #this is everything the user interacts with
-ui <- fluidPage(theme = shinytheme('slate'),
+ui <- fluidPage(theme = shinytheme('spacelab'),
   
   # App title ----
   titlePanel('Baby Names in the 2000\'s'),
